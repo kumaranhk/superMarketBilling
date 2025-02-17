@@ -1,0 +1,178 @@
+[
+    {
+      "barcode": "8901234567890",
+      "name": "Amul Milk 1L",
+      "price": 50,
+      "stock": 100,
+      "category": "Dairy"
+    },
+    {
+      "barcode": "8902345678901",
+      "name": "Britannia Bread",
+      "price": 40,
+      "stock": 50,
+      "category": "Bakery"
+    },
+    {
+      "barcode": "8903456789012",
+      "name": "Tata Salt 1kg",
+      "price": 25,
+      "stock": 200,
+      "category": "Grocery"
+    },
+    {
+      "barcode": "8904567890123",
+      "name": "Aashirvaad Atta 5kg",
+      "price": 250,
+      "stock": 75,
+      "category": "Grocery"
+    },
+    {
+      "barcode": "8905678901234",
+      "name": "Red Label Tea 250g",
+      "price": 120,
+      "stock": 60,
+      "category": "Beverages"
+    },
+    {
+      "barcode": "8906789012345",
+      "name": "Pepsi 2L",
+      "price": 90,
+      "stock": 80,
+      "category": "Beverages"
+    },
+    {
+      "barcode": "8907890123456",
+      "name": "Parle-G Biscuits 800g",
+      "price": 80,
+      "stock": 150,
+      "category": "Snacks"
+    },
+    {
+      "barcode": "8908901234567",
+      "name": "Haldiram's Bhujia 400g",
+      "price": 130,
+      "stock": 90,
+      "category": "Snacks"
+    },
+    {
+      "barcode": "8909012345678",
+      "name": "Colgate Toothpaste 100g",
+      "price": 55,
+      "stock": 120,
+      "category": "Personal Care"
+    },
+    {
+      "barcode": "8910123456789",
+      "name": "Dettol Handwash 200ml",
+      "price": 85,
+      "stock": 110,
+      "category": "Personal Care"
+    },
+    {
+      "barcode": "8911234567890",
+      "name": "Dove Shampoo 340ml",
+      "price": 220,
+      "stock": 95,
+      "category": "Personal Care"
+    },
+    {
+      "barcode": "8912345678901",
+      "name": "Santoor Soap Pack of 4",
+      "price": 130,
+      "stock": 80,
+      "category": "Personal Care"
+    },
+    {
+      "barcode": "8913456789012",
+      "name": "Nestle Everyday Dairy Whitener 1kg",
+      "price": 460,
+      "stock": 70,
+      "category": "Dairy"
+    },
+    {
+      "barcode": "8914567890123",
+      "name": "MTR Masala Dosa Mix 500g",
+      "price": 110,
+      "stock": 60,
+      "category": "Grocery"
+    },
+    {
+      "barcode": "8915678901234",
+      "name": "Bournvita 500g",
+      "price": 250,
+      "stock": 50,
+      "category": "Beverages"
+    },
+    {
+      "barcode": "8916789012345",
+      "name": "Maggi 6 Pack",
+      "price": 95,
+      "stock": 130,
+      "category": "Snacks"
+    },
+    {
+      "barcode": "8917890123456",
+      "name": "Kissan Tomato Ketchup 1kg",
+      "price": 125,
+      "stock": 90,
+      "category": "Condiments"
+    },
+    {
+      "barcode": "8918901234567",
+      "name": "Everest Chilli Powder 200g",
+      "price": 85,
+      "stock": 100,
+      "category": "Spices"
+    },
+    {
+      "barcode": "8919012345678",
+      "name": "MDH Garam Masala 100g",
+      "price": 70,
+      "stock": 75,
+      "category": "Spices"
+    },
+    {
+      "barcode": "8920123456789",
+      "name": "Horlicks 500g",
+      "price": 270,
+      "stock": 55,
+      "category": "Beverages"
+    },
+    {
+      "barcode": "8921234567890",
+      "name": "Tropicana Orange Juice 1L",
+      "price": 120,
+      "stock": 85,
+      "category": "Beverages"
+    },
+    {
+      "barcode": "8922345678901",
+      "name": "Good Day Butter Cookies 600g",
+      "price": 180,
+      "stock": 100,
+      "category": "Snacks"
+    },
+    {
+      "barcode": "8923456789012",
+      "name": "Sunfeast Yippee Noodles 4 Pack",
+      "price": 85,
+      "stock": 120,
+      "category": "Snacks"
+    },
+    {
+      "barcode": "8924567890123",
+      "name": "Kellogg's Corn Flakes 1kg",
+      "price": 360,
+      "stock": 50,
+      "category": "Breakfast"
+    },
+    {
+      "barcode": "8925678901234",
+      "name": "Saffola Gold Cooking Oil 5L",
+      "price": 1200,
+      "stock": 40,
+      "category": "Grocery"
+    }
+  ]
+  
