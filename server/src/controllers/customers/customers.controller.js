@@ -39,10 +39,10 @@ export const getCustomer = async (req, res) => {
     try {
         if (id) {
             const customer = await customerModel.findOne({ _id: id }, { __v: 0 });
-            return res.status(StatusCodes.OK).json({ customer });
+            return res.status(StatusCodes.OK).json({ data: customer });
         }
         const customers = await customerModel.find({}, { __v: 0 });
-        return res.status(StatusCodes.OK).json({ customers });
+        return res.status(StatusCodes.OK).json({ data: customers });
     } catch (error) {
         console.log(error);
         return res.status(StatusCodes.INTERNAL_SERVER_ERROR).json({ msg: ReasonPhrases.INTERNAL_SERVER_ERROR });
@@ -65,7 +65,7 @@ export const updateCustomer = async (req, res) => {
         }
         const customer = await customerModel.findOne({ _id: id });
         if (!customer) return res.status(StatusCodes.BAD_REQUEST).json({ msg: "Invalid customer id" });
-        const newCustomer = await customerModel.updatOne({ _id: id }, { name, email, address, contactPerson });
+        const newCustomer = await customerModel.findByIdAndUpdate({ _id: id }, { $set: { name, email, address, contactPerson } });
         return res.status(StatusCodes.OK).json({ newCustomer });
     } catch (error) {
         console.log(error);
